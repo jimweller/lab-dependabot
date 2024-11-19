@@ -1,0 +1,10 @@
+name: Outdated Workflow
+on:
+  workflow_dispatch: 
+jobs:
+  outdatedactions:
+    name: Dependabot Fixes These Outdated Actions
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/checkout@v4
+    - uses: hashicorp/setup-terraform@v3

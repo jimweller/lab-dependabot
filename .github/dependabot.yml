@@ -1,0 +1,11 @@
+# Fri Mar 15 10:16:22 PDT 2024
+version: 2
+updates:
+  - package-ecosystem: "github-actions"
+    directory: "/"
+    schedule:
+      interval: "weekly"
+    groups:
+      myactions:
+        patterns: 
+          - "*"
